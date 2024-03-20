@@ -16,7 +16,7 @@ const Sidebar = () => {
       opacity: 1,
       ease: "power2.out",
     });
-  });
+  }, []);
 
   const pathname = usePathname();
 
